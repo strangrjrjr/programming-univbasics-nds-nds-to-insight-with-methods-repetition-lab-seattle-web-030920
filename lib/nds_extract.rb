@@ -30,7 +30,7 @@ def list_of_directors(source)
   result = []
   source.each do |director|
     p director[:name]
-    result.push(#{director[:name]})
+    result.push(director[:name])
   end
 end
 
