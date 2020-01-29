@@ -29,6 +29,7 @@ def list_of_directors(source)
   result = []
   source.each do |director|
     result << director[:name]
+  end
 end
 
 def total_gross(source)
