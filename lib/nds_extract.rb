@@ -26,9 +26,10 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  pp source
+  #pp source
   result = []
   source.each do |director|
+    pp director[:name]
     result.push(director[:name])
   end
 end
