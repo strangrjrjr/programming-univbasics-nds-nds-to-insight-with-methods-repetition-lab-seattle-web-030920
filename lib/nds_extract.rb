@@ -28,8 +28,7 @@ def list_of_directors(source)
   # Write this implementation
   result = []
   source.each do |director|
-    puts director[:name]
-    result << director[:name]
+    result << director.fetch[:name]
   end
 end
 
