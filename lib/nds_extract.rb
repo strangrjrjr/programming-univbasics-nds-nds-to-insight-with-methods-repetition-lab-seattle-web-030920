@@ -47,6 +47,8 @@ def total_gross(source)
   total = 0
   source.each do |director|
     total += gross_for_director(director)
+  end
+  return total
 end
 
 
